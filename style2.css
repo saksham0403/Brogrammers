@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+body{
+  /* background-color: #404040; */
+  /* background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-space-background-01.jpg"); */
+  background-image: url("https://cdn.hipwallpaper.com/i/28/15/4MzESh.jpg");
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  position: fixed;
+  padding: 1rem;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 10;
+  /* opacity: 0.8; */
+}
+.yd{
+  height: 3rem;
+  position: relative;
+  top: 0.2rem;
+  opacity: 1;
+  border-radius: 10%;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 1.5rem;
+  opacity: 1;
+  font-weight: 900;
+}
+.menu li a:hover{
+  color: #32e0c4;
+}
+.logo:hover #yo{
+  color: #32e0c4;
+}
+.logo:hover #da,.logo:hover #nish{
+  color: white;
+}
+
+.max-width {
+  max-width: 100%;
+  padding: 0 5rem;
+  margin: auto;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#da,#nish{
+  color: #32e0c4;
+}
+.logo a{
+  font-size: 2.25rem;
+  font-weight: 600;
+  position: relative;
+  bottom: 0.6rem;
+  right: 1.5  rem;
+}
+.bill{
+  background-color: white;
+  width: 40rem;
+  min-height: 50rem;
+  margin: 0 auto 10rem;
+  position: relative;
+  top: 6rem;
+  text-align: center;
+  border-radius: 5%;
+}
+.bill-top{
+  position: relative;
+  top: 9rem;
+  z-index: 2;
+}
+#bill-head{
+  font-family: 'Indie FLower',sans-serif;
+  font-size: 5rem;
+  color: black;
+  position: relative;
+  top: 2rem;
+  transform: rotate(-20deg);
+  color: #14707C;
+  text-decoration: underline;
+  /* box-shadow: 5px 10px black; */
+}
+.products-heading h3{
+  color: black;
+  position: relative;
+  top: 3rem;
+  border-bottom: 0.2rem solid darkgrey;
+}
+.item{
+  display: inline-block;
+  width: 45%;
+}
+.price,.quantity,.total{
+  display: inline-block;
+  width: 15%;
+}
+.productlist{
+  color: black;
+}
+/* .prodlist div{
+
+} */
+.productlist p{
+  text-align: right;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  font-size: 1rem;
+}
+.productlist p span{
+  color: black;
+    font-size: 1rem;
+}
+
+.prodname{
+  position: relative;
+  top: 2rem;
+  right: 22rem;
+}
+.prodprice{
+  position: relative;
+  top: 2rem;
+  right: 15rem;
+
+}.prodquant{
+  position: relative;
+  top: 2rem;
+  right: 10rem;
+
+}
+.prodtotal{
+  position: relative;
+  top: 2rem;
+  right: 4rem;
+
+}
+.totalc{
+  position: relative;
+  right: 20%;
+  font-weight: bold;
+}
+.totalv{
+  position: relative;
+  right: 7%;
+  font-weight: bold;
+}
+
+
+
+#foot{
+  width: 100%;
+  margin-top: 5rem;
+  position: relative;
+  top: 0.5rem;
+}
